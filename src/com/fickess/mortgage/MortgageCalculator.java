@@ -7,8 +7,8 @@ import static com.fickess.Main.scanner;
 public class MortgageCalculator {
     private static NumberFormat currency = NumberFormat.getCurrencyInstance();
     private static NumberFormat percent = NumberFormat.getPercentInstance();
-    static final byte MONTHS_IN_YEAR = 12;
-    static final byte PERCENT =100;
+    private static final byte MONTHS_IN_YEAR = 12;
+    private static final byte PERCENT =100;
     private static float principle = 0;
     private static float apr = 0;
     private static int years = 0;
